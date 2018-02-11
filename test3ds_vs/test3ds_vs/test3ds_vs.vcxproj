@@ -74,24 +74,24 @@
     <IncludePath>P:\3ds\devkitPro\devkitARM\arm-none-eabi\include;P:\3ds\devkitPro\libctru\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <NMakeBuildCommandLine>Build make</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine>make</NMakeBuildCommandLine>
     <NMakeOutput>test3ds_vs.exe</NMakeOutput>
-    <NMakeCleanCommandLine>Clean make clean</NMakeCleanCommandLine>
-    <NMakeReBuildCommandLine>Rebuild make clean all</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>make clean</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>make clean all</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <NMakeBuildCommandLine>Build make</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine>make</NMakeBuildCommandLine>
     <NMakeOutput>test3ds_vs.exe</NMakeOutput>
-    <NMakeCleanCommandLine>Clean make clean</NMakeCleanCommandLine>
-    <NMakeReBuildCommandLine>Rebuild make clean all</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>make clean</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>make clean all</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <NMakeBuildCommandLine>Build make</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine>make</NMakeBuildCommandLine>
     <NMakeOutput>test3ds_vs.exe</NMakeOutput>
-    <NMakeCleanCommandLine>Clean make clean</NMakeCleanCommandLine>
-    <NMakeReBuildCommandLine>Rebuild make clean all</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>make clean</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>make clean all</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
   </PropertyGroup>
   <ItemDefinitionGroup>
