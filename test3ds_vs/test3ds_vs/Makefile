@@ -36,6 +36,9 @@ SOURCES		:=	source source/pp2d
 DATA		:=	data
 INCLUDES	:=	include
 #ROMFS		:=	romfs
+APP_TITLE :=	HB Template
+APP_DESCRIPTION := a simple 3ds Homebrew build with VS2017
+APP_AUTHOR :=	chaosdroid.com (Christian Zimmermann)
 
 #---------------------------------------------------------------------------------
 # options for code generation
