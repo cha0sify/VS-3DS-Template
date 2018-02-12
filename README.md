@@ -15,3 +15,8 @@ Download the template as .zip or clone the repo
 Start Visual Studio 2017 and open the solution file (VS3DSTemplate.sln)
 In the Solution Explorer, Right click on your project and choose build
 the 3dsx, elf and smdh files are generated in the project folder
+
+## Credits
+[Xerpi](https://github.com/xerpi) for portlibs
+[BernardoGiordano for PP2D](https://github.com/BernardoGiordano)
+[Fincs](https://github.com/fincs) for Citro3D
