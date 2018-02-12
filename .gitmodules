@@ -1,0 +1,3 @@
+[submodule "buildtools"]
+	path = test3ds_vs\test3ds_vs\test3ds_vs\buildtools
+	url = git://github.com/Steveice10/buildtools.git
